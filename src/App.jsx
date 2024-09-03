@@ -1,12 +1,14 @@
+import Navbar from "./components/Navbar"
 
-import './App.css'
+const App = () => (
+  <main className="relative">
+    <Navbar />
+    <section>
+      Hero
+    </section>
 
-function App() {
 
-  return(
-    <h1>Hello world</h1>
-  )
-  
-}
+  </main>
+);
 
 export default App
