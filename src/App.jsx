@@ -1,10 +1,11 @@
 import Navbar from "./components/Navbar"
+import Main from "./components/Main"
 
 const App = () => (
-  <main className="relative">
+  <main className="relative App max-w-screen-lg mx-auto">
     <Navbar />
     <section>
-      Hero
+      <Main />
     </section>
 
 
